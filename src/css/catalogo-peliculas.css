@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+
+}
+
+
+ul {
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+.ContainerPeliculas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* ___________________________Estilos para tema claro */
+.claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.claro .CatalogoGrid li {
+    background-color: #f4f4f4;
+}
+
+.claro button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.claro button:hover {
+    background-color: #0056b3;
+}
+
+/* ___________________________Estilos para tema oscuro */
+.oscuro {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.oscuro .CatalogoGrid li {
+    background-color: #444444;
+}
+
+.oscuro button {
+    background-color: #555555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.oscuro button:hover {
+    background-color: #777777;
+}

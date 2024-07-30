@@ -1,12 +1,12 @@
 {
     "usuarios": [
         {
-            "id": "user-25",
+            "id": "user1",
             "nombre": "Clara",
             "clave": "1234"
         },
         {
-            "id": "user-50",
+            "id": "user2",
             "nombre": "Roberto",
             "clave": "1234"
         }
@@ -14,37 +14,111 @@
     "peliculas": [
         {
             "id": "peli-1",
-            "idUsuario": "user-25",
+            "idUsuario": "user1",
             "titulo": "Dracula",
             "director": "Francis Ford Coppola",
             "isVista": true,
-            "imagen": "https://placehold.co/600x400/000000/FFF",
+            "imagen": "https://placehold.co/600x400/000000/FF5733?text=Dracula",
             "anio": 1990
         },
         {
             "id": "peli-2",
-            "idUsuario": "user-25",
+            "idUsuario": "user1",
             "titulo": "Bullet Train",
-            "director": "Director",
+            "director": "David Leitch",
             "isVista": true,
-            "imagen": "https://placehold.co/600x400/000000/FFF",
-            "anio": 1990
-        },        {
+            "imagen": "https://placehold.co/600x400/000000/FF5733?text=Bullet+Train",
+            "anio": 2022
+        },
+        {
             "id": "peli-3",
-            "idUsuario": "user-54",
-            "titulo": "Título3",
-            "director": "Director",
+            "idUsuario": "user1",
+            "titulo": "The Godfather",
+            "director": "Francis Ford Coppola",
             "isVista": true,
-            "imagen": "https://placehold.co/600x400/000000/FFF",
-            "anio": 1990
-        },        {
+            "imagen": "https://placehold.co/600x400/000000/FF5733?text=The+Godfather",
+            "anio": 1972
+        },
+        {
             "id": "peli-4",
-            "idUsuario": "user-54",
-            "titulo": "Título4",
-            "director": "Director",
+            "idUsuario": "user1",
+            "titulo": "Inception",
+            "director": "Christopher Nolan",
             "isVista": true,
-            "imagen": "https://placehold.co/600x400/000000/FFF",
-            "anio": 1990
+            "imagen": "https://placehold.co/600x400/000000/FF5733?text=Inception",
+            "anio": 2010
+        },
+        {
+            "id": "peli-5",
+            "idUsuario": "user1",
+            "titulo": "The Dark Knight",
+            "director": "Christopher Nolan",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/FF5733?text=The+Dark+Knight",
+            "anio": 2008
+        },
+        {
+            "id": "peli-6",
+            "idUsuario": "user1",
+            "titulo": "Fight Club",
+            "director": "David Fincher",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/FF5733?text=Fight+Club",
+            "anio": 1999
+        },
+        {
+            "id": "peli-7",
+            "idUsuario": "user2",
+            "titulo": "Pulp Fiction",
+            "director": "Quentin Tarantino",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/337AFF?text=Pulp+Fiction",
+            "anio": 1994
+        },
+        {
+            "id": "peli-8",
+            "idUsuario": "user2",
+            "titulo": "The Shawshank Redemption",
+            "director": "Frank Darabont",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/337AFF?text=The+Shawshank+Redemption",
+            "anio": 1994
+        },
+        {
+            "id": "peli-9",
+            "idUsuario": "user2",
+            "titulo": "Forrest Gump",
+            "director": "Robert Zemeckis",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/337AFF?text=Forrest+Gump",
+            "anio": 1994
+        },
+        {
+            "id": "peli-10",
+            "idUsuario": "user2",
+            "titulo": "The Matrix",
+            "director": "The Wachowskis",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/337AFF?text=The+Matrix",
+            "anio": 1999
+        },
+        {
+            "id": "peli-11",
+            "idUsuario": "user2",
+            "titulo": "Interstellar",
+            "director": "Christopher Nolan",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/337AFF?text=Interstellar",
+            "anio": 2014
+        },
+        {
+            "id": "peli-12",
+            "idUsuario": "user2",
+            "titulo": "Gladiator",
+            "director": "Ridley Scott",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/337AFF?text=Gladiator",
+            "anio": 2000
         }
     ]
 }

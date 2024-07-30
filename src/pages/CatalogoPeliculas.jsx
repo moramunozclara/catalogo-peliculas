@@ -1,4 +1,4 @@
-
+import {useState, useEffect} from 'react';
 
 
 const CatalogoPeliculas = () => {
@@ -7,20 +7,42 @@ const CatalogoPeliculas = () => {
 
     useEffect(() => {
         const getPeliculas = async() => {
-            try {}
-            catch {}
-        }
+            try {
+                const respuesta = await fetch ('/backend/API/v1/peliculas.json');
+                const objeto = await respuesta.json();
+                setPeliculas(objeto.peliculas);
+            }
+            catch (error) {
+                console.error('Error al obtener las películas', error)
+            }
+        };
+
+        
+
+        getPeliculas(); // obtén las películas
+
+        
     }, []);
 
 
 
     return ( 
         <>
-            <h2>Este es tu catálogo de películas</h2>
+            <h2>Este es tu catálogo de películas
+            {/* https://www.freecodecamp.org/news/how-to-make-an-image-search-app-in-react/ */}
+            </h2>
 
-            <ul>
-                <li ></li>
+            <ul className="CatalogoGrid">
+
+            {peliculas.map( (peliculas) => (
+                    <li key={peliculas.titulo}></li>
+                    )
+
+                    )
+                }
             </ul>
+
+
         </>
      );
 }

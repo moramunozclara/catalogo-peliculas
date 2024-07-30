@@ -32,14 +32,12 @@ const CatalogoPeliculas = () => {
             {/* https://www.freecodecamp.org/news/how-to-make-an-image-search-app-in-react/ */}
             </h2>
 
+
+
             <ul className="CatalogoGrid">
-
-            {peliculas.map( (peliculas) => (
-                    <li key={peliculas.titulo}></li>
-                    )
-
-                    )
-                }
+                {peliculas.map((pelicula) => (
+                    <li key={pelicula.id}>{pelicula.titulo}</li>
+                ))}
             </ul>
 
 

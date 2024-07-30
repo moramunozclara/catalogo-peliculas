@@ -32,7 +32,7 @@
         },        {
             "id": "peli-3",
             "idUsuario": "user-54",
-            "titulo": "Título",
+            "titulo": "Título3",
             "director": "Director",
             "isVista": true,
             "imagen": "https://placehold.co/600x400/000000/FFF",
@@ -40,7 +40,7 @@
         },        {
             "id": "peli-4",
             "idUsuario": "user-54",
-            "titulo": "Título",
+            "titulo": "Título4",
             "director": "Director",
             "isVista": true,
             "imagen": "https://placehold.co/600x400/000000/FFF",

@@ -1,0 +1,50 @@
+{
+    "usuarios": [
+        {
+            "id": "user-25",
+            "nombre": "Clara",
+            "clave": "1234"
+        },
+        {
+            "id": "user-50",
+            "nombre": "Roberto",
+            "clave": "1234"
+        }
+    ],
+    "peliculas": [
+        {
+            "id": "peli-1",
+            "idUsuario": "user-25",
+            "titulo": "Dracula",
+            "director": "Francis Ford Coppola",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/FFF",
+            "anio": 1990
+        },
+        {
+            "id": "peli-2",
+            "idUsuario": "user-25",
+            "titulo": "Bullet Train",
+            "director": "Director",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/FFF",
+            "anio": 1990
+        },        {
+            "id": "peli-3",
+            "idUsuario": "user-54",
+            "titulo": "Título",
+            "director": "Director",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/FFF",
+            "anio": 1990
+        },        {
+            "id": "peli-4",
+            "idUsuario": "user-54",
+            "titulo": "Título",
+            "director": "Director",
+            "isVista": true,
+            "imagen": "https://placehold.co/600x400/000000/FFF",
+            "anio": 1990
+        }
+    ]
+}

@@ -1,19 +1,26 @@
-import {createContext, useState} from 'react';
+import {createContext, useState, useContext} from 'react';
 
 
 // creación del contexto para el tema
-export const ModoOscuroContext = createContext();
+
+const ModoOscuroContext = createContext();
 
 
-const ModoOscuroContext = () => {
+export const ModoOscuroContextProvider = ({children}) => {
 
-    const [tema, setTema] = useState("light");
-
-    const toggleTema = () => {
-      setTema((prevTema) => (prevTema === "light" ? "dark" : "light"));
+        const [tema, setTema] = useState([]);
+        const toggleTema = () => {
+        setTema((prevTema) => (prevTema === "light" ? "dark" : "light"));
     }; }
 
-    return (  );
-}
+    return ( 
+        <ModoOscuroContext
+    Provider>
+            {children}
+        </ModoOscuroContext
+    Provider>
+
+     );
+};
  
-export default ModoOscuroContext;
+export default ModoOscuroContextProvider;

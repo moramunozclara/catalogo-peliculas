@@ -1,16 +1,5 @@
 {
-    "usuarios": [
-        {
-            "id": "user1",
-            "nombre": "Clara",
-            "clave": "1234"
-        },
-        {
-            "id": "user2",
-            "nombre": "Roberto",
-            "clave": "1234"
-        }
-    ],
+
     "peliculas": [
         {
             "id": "peli-1",

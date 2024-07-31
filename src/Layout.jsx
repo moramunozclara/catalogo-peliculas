@@ -9,6 +9,8 @@
 import { Outlet, } from "react-router-dom";
 import './css/Layout.css';
 import './css/catalogo-peliculas.css';
+import { ModoOscuroContext } from './context/ModoOscuroContext' // Importar el contexto
+
 
 import {createContext, useState} from 'react';
 

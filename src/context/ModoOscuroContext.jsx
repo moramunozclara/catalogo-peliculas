@@ -14,11 +14,10 @@ export const ModoOscuroContextProvider = ({children}) => {
     }; }
 
     return ( 
-        <ModoOscuroContext
+        <ModoOscuroContextProvider
     Provider>
             {children}
-        </ModoOscuroContext
-    Provider>
+        </ModoOscuroContextProvider>
 
      );
 };
